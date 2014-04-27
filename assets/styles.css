@@ -1,0 +1,447 @@
+/*
+
+Theme Name: Food Stall
+
+Author: Bilal Khan
+
+Author URI: ?
+
+*/
+
+
+
+
+
+
+
+
+
+
+ /* Override some defaults */
+
+      .login_signup {
+        padding-top: 5%; 
+      }
+
+/*
+-------------------------------------------------------------------------------
+GLOBAL STYLES
+-------------------------------------------------------------------------------
+*/
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.margin-left15 {
+	margin-left: 25px;
+}
+      /* The white background content wrapper */
+      .login_signup_container > .content {
+        background-color: #F1F0F0;
+        padding: 20px;
+        margin: 0 auto; 
+        -webkit-border-radius: 10px 10px 10px 10px;
+           -moz-border-radius: 10px 10px 10px 10px;
+                border-radius: 10px 10px 10px 10px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+                box-shadow: 0 1px 2px rgba(0,0,0,.15);
+        width: 300px;       
+      }
+
+	  .login-form {
+		margin-left: 65px;
+	  }
+	
+	  legend {
+		margin-right: -50px;
+		font-weight: bold;
+	  	color: #404040;
+	  }
+.MCkeyform,.MDkeyform{
+  display: none;
+}
+#closeMcFrm,#changeMC,#closeMdFrm,#changeMD{
+  cursor: pointer;
+  text-decoration: none;
+}
+.shopifyFrm .show{
+  text-align: left;
+  font-weight: bold;
+}
+#output img{
+    left: 36%;
+    margin: auto;
+    position: relative; 
+}
+#output p{
+  text-align: center;
+}
+#output{
+  position: absolute;
+  z-index: 200;
+  width: 63.359%;
+  margin-top: 2%;
+}
+#Uploadbox{
+  position: relative;
+  z-index: 100;
+
+}
+.hero-unit {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.bar {
+    height: 18px;
+    background: green;
+}
+.input_area
+{
+  height: 40px;
+}
+.register_user_link
+{
+  margin-left: 65px;
+  margin-bottom: 2px;
+}
+.signup_heading
+{
+ float: center;
+ padding-left: 35%;
+}
+.errors{
+  float: right;
+  padding-top: 6px;
+}
+/*
+-------------------------------------------------------------------------------
+HEADER STYLES
+-------------------------------------------------------------------------------
+*/
+.header {
+	float: left;
+	background: #222;
+	width: 100%;
+	height: 115px;
+	border-bottom: 1px solid #c0c0c0;
+}
+.logo {
+	float: left;
+	margin: 0px 0px 0px 20px;
+}
+.logo a {
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+.header-right {
+	float: right;
+	margin: 55px 0px 0px 0px;
+}
+.header-right a {
+	background: #f1f1f1;
+	color: #242424;
+	border: 1px solid #fff;
+	margin-left: 15px;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+.header-right a:hover {
+	text-decoration: underline;
+}
+.header-right ul {
+	width: 120px;
+	list-style: none;
+}
+.header-right ul li {
+	position: relative;
+	float: left;
+	display: inline-block;
+}
+.header-right ul li a {
+	background: #f1f1f1;
+	color: #242424;
+	text-decoration: none;
+	border: 1px solid #fff;
+	margin-left: 15px;
+	padding: 10px 20px;
+}
+.header-right ul li a:hover {
+	text-decoration: underline;
+}
+.header-right ul li ul {
+	list-style: none;
+	display: none;
+	margin-top: 10px;
+}
+.header-right ul li:hover ul {
+	display: block;
+}
+.header-right ul li ul li {
+	float: left;
+	display: block;
+}
+.header-right ul li ul.submenu li a {
+	float: left;
+	width: 63px;
+	background: #f1f1f1;
+	text-align: center;
+	color: #242424;
+	text-decoration: none;
+	margin-left: -10px !important;
+	padding: 10px 20px;
+}
+.header-right ul li ul.submenu li a:hover {
+	text-decoration: underline;
+}
+/*
+-------------------------------------------------------------------------------
+FOOTER STYLES
+-------------------------------------------------------------------------------
+*/
+.footer {
+	float: left;
+	background: #000000;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+}
+.social-icons {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 19px;
+}
+.social-icons a.facebook {
+	display: inline-block;
+	background: url(../images/facebook.png) no-repeat;
+	width: 32px;
+	height: 32px;
+	font-size: 0px;
+	margin-right: 10px;
+}
+.social-icons a.facebook:hover {
+	background-position: bottom;
+}
+.social-icons a.mail {
+	display: inline-block;
+	background: url(../images/mail.png) no-repeat;
+	width: 32px;
+	height: 32px;
+	font-size: 0px;
+	margin-right: 10px;
+}
+.social-icons a.mail:hover {
+	background-position: bottom;
+}
+.social-icons a.twitter {
+	display: inline-block;
+	background: url(../images/twitter.png) no-repeat;
+	width: 32px;
+	height: 32px;
+	font-size: 0px;
+}
+.social-icons a.twitter:hover {
+	background-position: bottom;
+}
+.order-div {
+	float: left;
+	width:530px;
+	height: 250px;
+	overflow-y: scroll;
+}
+.voucher-title {
+	float: left;
+	width: 100%;
+}
+.qty-title {
+	float: right;
+	width: 8%;
+	font-size: 18px;
+}
+.subtotal-title {
+	float: right;
+	width: 20%;
+	font-size: 18px;
+}
+.vocher-post {
+	float: left;
+	width: 98%;
+	border: 1px solid #000;
+}
+.vocher-post-col1 {
+	float: left;
+	width: 20%;
+	padding: 10px 0px;
+}
+.vocher-post-col2 {
+	float: left;
+	width: 50%;
+	padding: 10px 0px;
+}
+.vocher-post-col3 {
+	float: left;
+	width: 10%;
+	text-align: center;
+	padding: 25px 0px 0px 0px;
+}
+.vocher-post-col4 {
+	float: left;
+	width: 20%;
+	text-align: center;
+	padding: 25px 0px 0px 0px;
+}
+.phone-total {
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+.vocher-phone {
+	float: left;
+	width: 60%;
+}
+.phone-title {
+	float: left;
+	margin: 5px 15px 0px 0px;
+	font-size: 16px;
+	margin-right: 15px;
+}
+.phone-inp {
+	float: left;
+}
+.phone-inp input {
+	width: 150px !important;
+}
+.vocher-total-price {
+	float: right;
+	width: 27%;
+	text-align: left;
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 5%;
+}
+.total-price {
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 50px;
+}
+.invalid {
+	float: left;
+	color: red;
+	font-size: 11px;
+	margin-top: 10px;
+}
+.home-title {
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+}
+.pop-cont {
+	padding: 15px;
+}
+.map-div {
+	float: left;
+	margin-top: 20px;
+	border: 1px solid #666666;
+}
+.search-div {
+	float: left;
+	width: 100%;
+	margin-top: 15px;
+}
+.input-append {
+	width: 100% !important;
+}
+.input-append #appendedInputButton {
+	width: 480px;
+}
+.input-append .btn {
+	float: right;
+	background: url(../images/search-icon.png) no-repeat;
+	width: 25px;
+	height: 25px;
+	border: 0px;
+}
+#name-inp {
+	float: left;
+	width: 387px;
+	margin-right: 20px;
+}
+.yourlocation-area {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.yourlocation {
+	display: inline-block;
+	background: #CCCCCC;
+	border: 1px solid #666666;
+	color: #000;
+	padding: 4px 15px;
+	margin: 0px auto;
+}
+.form-div {
+	width: 425px;
+	margin: 40px 0px;
+}
+.form-row {
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.form-row label {
+	float: left; 
+}
+.password-inp {
+	float: right;
+}
+.tick-mark {
+	float: right;
+	margin-left: 15px;
+}
+.modal-content button.close {
+	font-size:	30px;
+	margin: 10px 10px 0px 0px;
+}
+.vocher-post .price {
+	font-weight: bold;
+}
+.map-div {
+	float: left;
+	width: 528px;
+	height: 400px;
+	margin-bottom: 15px;
+}
+#map-canvas {
+	float: left;
+	width: 528px;
+	height: 400px;
+}
+#pac-input {
+	margin-top: 10px;
+}
+.modal-dialog {
+	float: left;
+	width: 540px;
+}
+.hidden-flow {
+	overflow: hidden;
+}
+.modal-content {
+	float: left;
+}
+.pop-cont {
+	float: left;
+}
+.bg-none {
+	background: none;
+}
+.form-row .form-control {
+	height: 35px;
+}

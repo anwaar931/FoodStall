@@ -1,0 +1,58 @@
+.header {
+	float: left;
+	background: #222;
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #c0c0c0;
+}
+.sign_up_login_header
+{
+
+	margin-left:41%;
+	text-align: right;
+}
+.footer {
+	float: left;
+	background: #000000;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+}
+.social-icons {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 19px;
+}
+.social-icons a.facebook {
+	display: inline-block;
+	background: url(../images/facebook.png) no-repeat;
+	width: 32px;
+	height: 32px;
+	font-size: 0px;
+	margin-right: 10px;
+}
+.social-icons a.facebook:hover {
+	background-position: bottom;
+}
+.social-icons a.mail {
+	display: inline-block;
+	background: url(../images/mail.png) no-repeat;
+	width: 32px;
+	height: 32px;
+	font-size: 0px;
+	margin-right: 10px;
+}
+.social-icons a.mail:hover {
+	background-position: bottom;
+}
+.social-icons a.twitter {
+	display: inline-block;
+	background: url(../images/twitter.png) no-repeat;
+	width: 32px;
+	height: 32px;
+	font-size: 0px;
+}
+.social-icons a.twitter:hover {
+	background-position: bottom;
+}

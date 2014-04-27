@@ -1,0 +1,17 @@
+.tray-icon{
+	width: 35px;
+	height: 20px;
+}
+
+.tray-quantity{
+	width: 20%;
+}
+
+.tray-quantity-spinner{
+	width: 70%;
+}
+
+.tray-detail{
+	width: 400%;
+	padding: 10%;
+}

@@ -1,0 +1,41 @@
+
+.map-div {
+	float: left;
+	margin-top: 20px;
+	border: 1px solid #666666;
+}
+#map-canvas {
+	float: left;
+	width: 528px;
+	height: 350px;
+}
+#pac-input {
+	margin-top: 10px;
+}
+.hidden-flow {
+	overflow: hidden;
+}
+.modal-content {
+	float: left;
+}
+.pop-cont {
+padding: 15px;
+	float: left;
+}
+.modal-content button.close {
+	font-size:	30px;
+	margin: 10px 10px 0px 0px;
+}
+.home-title {
+	font-size: 20px;
+	color: #000;
+}
+.map-div {
+	float: left;
+	margin-top: 20px;
+	border: 1px solid #666666;
+}
+.search-div {
+	width: 100%;
+	margin-top: 15px;
+}

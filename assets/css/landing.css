@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+.pos {
+	position: absolute;
+	top: 20%;
+}
+.but1 {
+	position: relative;
+	left: -3%;
+	top:10px;
+}
+.but2 {
+	position: relative;
+	left: -2%;
+	top:10px;
+}
+.new
+{
+	position:relative;
+	top:-150px;
+}
+
+.end {
+	position: relative;
+	top: 35px;
+	left: 36.5%;
+}
+
+
+.pos2
+{
+	position :relative;
+	left: 20%;
+	top: -44px;
+}
+.main {
+	position: relative;
+	left: 37.7%;
+	top	: -120px;
+	font-weight: bold;
+}
+.frm {
+	position:relative;
+	left: 30.5%;
+	top:-110px;
+}
+.indicate {
+	height: 30%;
+}
+.check
+{
+	margin-top: 5px;
+}
+.please_add_location
+{
+margin-top:8px;
+}

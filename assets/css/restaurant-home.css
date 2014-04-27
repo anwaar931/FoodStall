@@ -1,0 +1,67 @@
+body{
+	height: 100%;
+	margin: 2% 0%;
+}
+
+.orders-div
+{
+	border: 1px solid #eee;
+    overflow-x:scroll;
+    overflow-y: hidden;
+    text-align: right;
+}
+
+.order
+{
+	float: right;
+    width: 300px;
+    margin: 10px;
+    padding-top: 5%;
+    background: url('../images/pinned-note.png');
+    height: 350px;
+    background-repeat:no-repeat;
+}
+
+.order-body{
+	padding: 5%;
+}
+
+.order-scroll{
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+
+.order-deals{
+	height: 200px !important;
+	white-space: normal;
+}
+
+
+.order-info{
+	font-size: 12px;
+}
+
+.list-inline {
+  white-space:nowrap;
+}
+
+.history{
+	margin-top: 20px;
+}
+
+.history-content{
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height: 250px;
+}
+
+.order-table-width{
+	width: 100%;
+}
+
+
+.deal-checked{
+	text-decoration: line-through;
+	font-style: italic;
+}
